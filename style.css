@@ -1,0 +1,17 @@
+html{
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+button{
+    background-color: rgb(188, 132, 241);
+}
+form input{
+    padding: 1em;
+    min-width: 0;
+    height: 20px;
+    background-color:rgb(255, 255, 255);
+}

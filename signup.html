@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>mini projuct</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>SIGNUP</h1>
+         <p>Signup here</p>
+        <form action="login.php" method="POST">
+            <input type="text" name="First name" placeholder="First name" required><br>
+            <input type="Last name" name="Last name" placeholder="Last name" required><br>
+            <input type="email" name="email" placeholder="email" required><br>
+            <input type="tel" name="phone number" placeholder="phone number" required><br>
+            <b><p>Gender</p></b>
+            <input type="radio" name="gender" value="male">male<br>
+            <input type="radio" name="gender" value="female">female<br>
+            <b><p>Hobbies</p></b>
+            <input type="checkbox" name="hobbies" value="playing">playing<br>
+            <input type="checkbox" name="hobbies" value="learning">learning<br>
+            <b><p>Addres</p></b>
+            <textarea rows="10" cols="20" name="add"></textarea><br>
+            <b><label for="state">state</label></b>
+            <select name="state">
+                <option value="AndhraPradesh">AndhraPradesh</option>
+                <option value="Arunachal Pradesh">Arunachal</option>
+                <option value="Tamil Nadu">tamil nadu</option>
+                <option value="kerala">kerala</option>
+                <option value="Goa">goa</option>
+                <option value="Punjab">punjab</option>
+                <option value="Telangana">telegana</option>
+                <option value="Mizoram">mizoram</option></select><br>
+                <label for="file">upload photo</label>
+                <input type="file" name="filename"><br>
+            <button type="submit" name="signup">signup</button>
+        </form>
+    </body>
+    </html>
